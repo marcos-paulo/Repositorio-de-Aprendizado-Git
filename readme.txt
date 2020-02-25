@@ -16,6 +16,7 @@ Inicializa o Git em uma pasta
 
 git init
 
+
 Checar o estado das mudanças em um repositório
 
 git status
@@ -35,3 +36,16 @@ git add .
 Para fazer commit ("salvar") as mudanças que você fez com uma curta mensagem de descrição
 
 git commit -m "sua mensagem de commit"
+
+
+Adicione seu nome de usuário GitHub à sua configuração:
+
+git config --global user.username <USUARIO>
+
+Você pode checar novamente o que você colocou na sua configuração Git digitando:
+
+git config --global user.username
+
+
+
+
