@@ -1,5 +1,21 @@
 Arquivo de aprendizado de git...
 
+Crie uma nova pasta (criar um diretório)
+
+mkdir <NOMEDAPASTA>
+
+Navegar para dentro desta pasta (mudar de diretório)
+
+cd <NOMEDAPASTA>
+
+Lista dos itens dentro de uma pasta
+
+ls
+
+Inicializa o Git em uma pasta
+
+git init
+
 Checar o estado das mudanças em um repositório
 
 git status
