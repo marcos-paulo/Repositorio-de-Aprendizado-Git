@@ -30,6 +30,8 @@ git config --global user.username
 
 Adicionar remotos
 git remote add <NOMEDOREMOTO> <URL>
+Remover remotos
+git remote rm <NOMEDOREMOTO>
 Mudar o URL de um remoto
 git remote set-url <NOMEDOREMOTO> <URL>
 Receber mudanças de um remoto
