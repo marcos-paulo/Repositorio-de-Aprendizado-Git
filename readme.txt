@@ -40,3 +40,11 @@ Ver os endereços dos remotos
 git remote -v
 Enviar mudanças
 git push <NOMEDOREMOTO> <NOMEDOBRANCH>
+
+
+Para criar um repositorio em compartilhado em rede local ou em computador local:
+crie uma pasta que servira como pasta repositorio
+$ mkdir <nome-da-pasta-repositório>
+inicie o repositorio sem um diretório de trabalho
+$ git init --bare
+adicione o endereco da pasta repositorio aos repositorios de cada progrmador seguindo os passos da sessao anterior
